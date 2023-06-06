@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="Yermolchev.Assignment.Modules.TextTool.Views.SelectFile"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Yermolchev.Assignment.Modules.TextTool.Views"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True" >
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <Button Command="{Binding OpenFileDialogCommand}"
+                    Content="Open text file"
+                    Margin="10"
+                    Padding="10" />
+            <TextBlock Text="{Binding FileName}"
+                    Margin="10"
+                    Padding="10" />
+            <Button Command="{Binding ProcessFileCommand}"
+                    Content="Process file" 
+                    Margin="10"
+                    Padding="10" />
+        </StackPanel>
+</UserControl>

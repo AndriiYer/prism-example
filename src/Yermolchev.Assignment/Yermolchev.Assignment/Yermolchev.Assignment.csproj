@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\Yermolchev.Assignment.Modules.TextTool\Yermolchev.Assignment.Modules.TextTool.csproj" />
+    <ProjectReference Include="..\Yermolchev.Assignment.Core\Yermolchev.Assignment.Core.csproj" />
+    <ProjectReference Include="..\Services\Yermolchev.Assignment.Services.Interfaces\Yermolchev.Assignment.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\Yermolchev.Assignment.Services\Yermolchev.Assignment.Services.csproj" />
+  </ItemGroup>
+</Project>
