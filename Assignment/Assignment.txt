@@ -20,7 +20,7 @@ Quality of the solution (e.g. code quality) is important.
 -	The program shall read an ANSI text file. The file to be read shall be specified by the user.
 -	Separating the words out of the text file is only based on white space characters 
 (space, LR, CR, ...). Handling punctuation marks is beyond the scope of this assignment.
--	It shall be considered that large text files (~50 MB) will be processed, and as such, 
+-	It shall be considered that different text files will be processed, and as such, 
 the user interface shall show a progress bar.
 -	It shall be possible to abort the program while parsing the text file.
 -	The file parsing logic, responsible for extracting the words out of the input file should be 
